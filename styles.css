@@ -28,11 +28,12 @@ section {
 }
 
 section h1 {
-  font-size: 2em;
+  font-size: 5em;
 }
 
 section p {
   padding-top: 5px;
+  font-size: 2em;
 }
 
 footer {
@@ -40,4 +41,14 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+@media screen and (max-width: 560px) {
+  section h1 {
+    font-size: 2.5em;
+  }
+
+  section p {
+    font-size: 1em;
+  }
 }
